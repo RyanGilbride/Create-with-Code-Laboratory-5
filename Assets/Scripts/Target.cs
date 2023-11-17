@@ -18,7 +18,7 @@ public class Target : MonoBehaviour
 
     public ParticleSystem explosionParticle;
 
-    // Start is called before the first frame update
+    // Start called before the first frame update
     void Start()
     {
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
@@ -29,7 +29,7 @@ public class Target : MonoBehaviour
         transform.position = RandomSpawnPos();
     }
 
-    // Update is called once per frame
+    // Update called once per frame
     void Update()
     {
         
